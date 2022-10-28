@@ -318,6 +318,7 @@ On victim machine:
 
 <b>Linux</b>
 	find / -perm -u=s -type f 2>/dev/null
+	
 	https://gtfobins.github.io/
 	
 <b>Vulnerable Services</b>

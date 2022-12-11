@@ -8,6 +8,8 @@
 
 	cat index.html | grep "href=" | cut -d "/" -f3| grep "<[DOMAIN]>" | cut -d '"' -f1 | sort -u
 
+	https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2022_11.svg
+	
 # Netcat
 <b>Interact with application:</b>
 

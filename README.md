@@ -10,6 +10,8 @@
 
 	https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2022_11.svg
 	
+	https://www.sneakymonkey.net/2021/04/15/oscp-2020-tips/
+	
 # Netcat
 <b>Interact with application:</b>
 

